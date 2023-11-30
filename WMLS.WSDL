@@ -65,7 +65,6 @@
      <part name='WMLtypeIn' type='xsd:string'/>
      <part name='QueryIn' type='xsd:string'/>
      <part name='OptionsIn' type='xsd:string'/>
-     <part name='CapabilitiesIn' type='xsd:string'/>
 </message>
     
 <message name='Store.WMLS_GetFromStoreResponse'>
@@ -125,7 +124,7 @@
           <output message='wsdlns:Store.WMLS_GetCapResponse' />
      </operation>
 	
-     <operation name='WMLS_GetFromStore' parameterOrder='WMLtypeIn QueryIn OptionsIn CapabilitiesIn XMLout SuppMsgOut'>
+     <operation name='WMLS_GetFromStore' parameterOrder='WMLtypeIn QueryIn OptionsIn XMLout SuppMsgOut'>
           <input message='wsdlns:Store.WMLS_GetFromStore' />
           <output message='wsdlns:Store.WMLS_GetFromStoreResponse' />
      </operation>
